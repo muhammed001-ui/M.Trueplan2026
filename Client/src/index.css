@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;500;700&family=Outfit:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: 'DM Sans', sans-serif;
+  --font-display: 'Outfit', sans-serif;
+}
+
+/* THEME: Gray + Brown (Default / 'earth') */
+:root[data-theme='earth'] {
+  --background: 30 14% 96%;
+  --foreground: 24 10% 10%;
+  --card: 0 0% 100%;
+  --card-foreground: 24 10% 10%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 24 10% 10%;
+  --primary: 28 35% 45%;
+  --primary-foreground: 60 9% 98%;
+  --secondary: 30 10% 90%;
+  --secondary-foreground: 24 10% 10%;
+  --muted: 30 10% 90%;
+  --muted-foreground: 24 5% 45%;
+  --accent: 28 35% 45%;
+  --accent-foreground: 60 9% 98%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 30 10% 85%;
+  --input: 30 10% 85%;
+  --ring: 28 35% 45%;
+  --radius: 0.75rem;
+}
+
+/* THEME: Purple + Black ('neon') */
+:root[data-theme='neon'] {
+  --background: 260 20% 10%;
+  
